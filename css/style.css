@@ -23,11 +23,10 @@ Table of Contents:
 18) Clients Section
 19) Testimonials Section
 20) Contact Form Section
-21) Google Map Section
-22) Video Popup Section
-23) Footer 1
-24) Subscribe Form - Twitter Feed
-25) Shortcode
+21) Video Popup Section
+22) Footer 1
+23) Subscribe Form - Twitter Feed
+24) Shortcode
 
 ------------------------------------------------------------------------------*/
 
@@ -2483,12 +2482,6 @@ border-bottom:1px dotted #ccc;
 }
 .contact-details-social li a {
     color: #7a7a7a;
-}
-
-/*----- Google maps -----*/
-#map {
-    height:450px;
-    width:100%;
 }
 
 /*----- Video Popup Section -----*/
