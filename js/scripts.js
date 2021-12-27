@@ -1,3 +1,9 @@
+/*
+	Visual by TEMPLATE STOCK
+	templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
 (function($) {
     "use strict";
     
@@ -137,6 +143,23 @@
         ---------------------*/
         new WOW().init(); 
     }
+    /* -------------------
+    Google map
+    ---------------------*/
+    $("#map").gmap3({
+        marker:{     
+        address:"44 W 66th St, New York, NY", 
+        options:{ icon: "../img/assets/marker.png"}},
+        map:{
+        options:{
+        styles: [ {
+        stylers: [ { "saturation":-90 }, { "lightness": 0 }, { "gamma": 0.0 }]},
+        ],
+        zoom: 13,
+        scrollwheel:false,
+        draggable: true }
+        }
+    });	
     /* -------------------
     Animated progress bars
     ---------------------*/
